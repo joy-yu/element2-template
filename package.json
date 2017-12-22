@@ -1,0 +1,56 @@
+{
+  "name": "element2-template",
+  "description": "element2-template",
+  "author": "joy-yu",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.dev.js",
+    "build": "rimraf dist && webpack --progress --hide-modules --config webpack.prod.js",
+    "upload": "gulp uploadTest",
+    "uploadzs": "gulp uploadTestZs"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "element-ui": "^2.0.0",
+    "lodash": "^4.17.4",
+    "qs": "^6.4.0",
+    "vue": "^2.5.2",
+    "vue-quill-editor": "^2.1.6",
+    "vue-router": "^2.4.0"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-component": "^0.10.1",
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-preset-vue-app": "^1.2.0",
+    "compression-webpack-plugin": "^1.0.1",
+    "css-loader": "^0.27.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^0.10.1",
+    "gulp": "^3.9.1",
+    "gulp-ext-replace": "^0.2.0",
+    "gulp-ssh": "^0.5.1",
+    "gulp-util": "^3.0.6",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.24.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "lodash-webpack-plugin": "^0.11.3",
+    "postcss-loader": "^1.3.3",
+    "require-dir": "^0.3.0",
+    "rimraf": "^2.5.4",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.8",
+    "vue-loader": "^13.3.0",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^3.8.1",
+    "webpack-bundle-analyzer": "^2.2.1",
+    "webpack-dev-server": "^2.9.3",
+    "webpack-merge": "^4.1.0"
+  }
+}
